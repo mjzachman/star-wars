@@ -10,7 +10,7 @@ function Header() {
         
         <Timer />
 
-        <p>
+        <p id="title">
           Star Wars
         </p>
        
