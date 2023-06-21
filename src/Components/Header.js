@@ -1,16 +1,21 @@
 
 import '../Styles/Header.css';
+import Menu from './Menu.js';
+import Timer from './Timer.js';
 
 function Header() {
   return (
     <div className="Header">
-      <header className="Header-header">
+      
         
+        <Timer />
+
         <p>
           Star Wars
         </p>
        
-      </header>
+       <Menu />
+      
     </div>
   );
 }

@@ -1,16 +1,13 @@
 
 import '../Styles/App.css';
+import Header from './Header.js';
+import Game from './Game.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Star Wars
-        </p>
-       
-      </header>
+        <Header />
+        <Game />
     </div>
   );
 }

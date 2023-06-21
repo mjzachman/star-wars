@@ -7,7 +7,7 @@ function Menu() {
       <header className="Menu-header">
         
         <p>
-          Star Wars
+          Menu
         </p>
        
       </header>
